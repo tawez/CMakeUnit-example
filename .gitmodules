@@ -1,0 +1,3 @@
+[submodule "cmake/CMakeUnit"]
+	path = cmake/CMakeUnit
+	url = git@github.com:tawez/CMakeUnit.git
