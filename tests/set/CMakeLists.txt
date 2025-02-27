@@ -1,0 +1,2 @@
+add_subdirectory(set_if_defined)
+add_subdirectory(set_if_undefined)
