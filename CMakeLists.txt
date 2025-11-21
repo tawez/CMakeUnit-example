@@ -18,7 +18,7 @@ if (PROJECT_IS_TOP_LEVEL)
     )
     FetchContent_MakeAvailable(cmakeunit)
 
-    list(PREPEND CMAKE_MODULE_PATH "${cmakeunit_SOURCE_DIR}")
+    list(PREPEND CMAKE_MODULE_PATH "${cmakeunit_SOURCE_DIR};${CMAKE_CURRENT_LIST_DIR}/src")
 
     add_subdirectory(tests)
 endif ()
