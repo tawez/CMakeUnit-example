@@ -13,7 +13,7 @@ if (PROJECT_IS_TOP_LEVEL)
     FetchContent_Declare(
         cmakeunit
         GIT_REPOSITORY "https://github.com/tawez/CMakeUnit.git"
-        GIT_TAG "39ed30ba2e8769841ad91748a2341a80262aa21a"
+        GIT_TAG "0397229da40bb46363e7ed244f310e3e3db7ee4d"
         UPDATE_DISCONNECTED ON
     )
     FetchContent_MakeAvailable(cmakeunit)
