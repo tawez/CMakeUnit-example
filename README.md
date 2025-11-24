@@ -14,7 +14,10 @@ This is (or at least should be) a self-explanatory example.
 2. [assertions](tests/assertions)  
    Examples illustrating usage of CMakeUnit assertions 
 
-3. [set](tests/set)  
+3. [mocks](tests/mocks)  
+   Examples illustrating usage of CMakeUnit mocks
+
+4. [set](tests/set)  
    Example of how to test custom macro
 
 
