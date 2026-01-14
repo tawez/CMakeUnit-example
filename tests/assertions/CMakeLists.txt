@@ -74,3 +74,13 @@ add_cmake_test(
     "EXPECT_LIST_LENGTH examples"
     expect_list_length_test.cmake
 )
+
+add_cmake_test(
+    "EXPECT_LIST_EQ examples"
+    expect_list_eq.test.cmake
+)
+
+add_cmake_test(
+    "EXPECT_LIST_CONTAINS examples"
+    expect_list_contains.test.cmake
+)
